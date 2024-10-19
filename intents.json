@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I assist you today?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a great day!", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome!", "My pleasure!", "Anytime!"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["Who are you?", "What are you?", "Tell me about yourself", "What do you do?"],
+        "responses": ["I am a chatbot designed to assist you.", "I can help you with various tasks. Just ask!"],
+        "context": [""]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "Can you assist me?", "I need help with something"],
+        "responses": ["Of course! I'm here to help. What do you need assistance with?", "Sure! Let me know what you need help with."],
+        "context": [""]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather?", "Is it sunny today?", "Will it rain tomorrow?"],
+        "responses": ["I'm unable to check the weather right now, but you can try checking an app or website.", "I don't have access to weather information. Please check a weather app."],
+        "context": [""]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+        "responses": ["I am just a humble chatbot here to assist you!", "You can call me your helpful chatbot assistant."],
+        "context": [""]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "I want to hear a joke"],
+        "responses": ["Why don't skeletons fight each other? They don't have the guts.", "What do you call fake spaghetti? An impasta!", "Why did the scarecrow win an award? He was outstanding in his field!"],
+        "context": [""]
+      },
+      {
+        "tag": "small_talk",
+        "patterns": ["What's up?", "How's it going?", "How do you feel?", "What's new?"],
+        "responses": ["I'm just here, ready to assist you!", "Everything's going great! How about you?", "I'm just a bot, but thanks for asking!"],
+        "context": [""]
+      },
+      {
+        "tag": "complaint",
+        "patterns": ["I have a complaint", "I am not happy", "This is frustrating", "I'm annoyed", "This is bad"],
+        "responses": ["I'm sorry to hear that. How can I help make things better?", "I apologize for any inconvenience. How can I assist you?"],
+        "context": [""]
+      },
+      {
+        "tag": "affirmation",
+        "patterns": ["Yes", "Yep", "Sure", "Absolutely", "Definitely", "Of course"],
+        "responses": ["Great!", "Good to hear!", "Okay, let's proceed."],
+        "context": [""]
+      },
+      {
+        "tag": "negation",
+        "patterns": ["No", "Nope", "Not really", "I don't think so", "Nah"],
+        "responses": ["Okay, let me know if you need anything.", "Got it, feel free to ask something else!"],
+        "context": [""]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["What do you mean?", "I don't understand", "Can you clarify?", "What is that?", "Please explain"],
+        "responses": ["I'm sorry, could you clarify what you meant?", "I didn't quite understand. Could you rephrase that?", "I'm not sure what you mean, can you provide more detail?"],
+        "context": [""]
+      }
+    ]
+  }
+  
